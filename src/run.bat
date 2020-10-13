@@ -1,2 +1,2 @@
-python game.py
+python paper_plane.py
 pause

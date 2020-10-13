@@ -9,8 +9,8 @@ class DrawEngine:
         self.parent = parent
 
     def __init_font(self):
-        self.sysfont = pygame.font.SysFont(None, 30)
-        self.bigfont = pygame.font.SysFont(None, 72)
+        self.sysfont = pygame.font.SysFont('arial', 24)
+        self.bigfont = pygame.font.SysFont('arial', 64)
 
     def __load_background(self):
         self.background = pygame.image.load('./img/background01.jpg')

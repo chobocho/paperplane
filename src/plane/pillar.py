@@ -21,7 +21,7 @@ class Pillars():
 
         if self.pillars[0][0] < -60:
             del self.pillars[0]
-            px = self.pillars[3][0] + 180 + random.randint(0, 30)
+            px = self.pillars[3][0] + 200 + random.randint(0, 30)
             down = random.randint(0, 5)
             top = random.randint(0, 5 - down)
             self.pillars.append([px, top, down])
